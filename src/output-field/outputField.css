@@ -1,0 +1,86 @@
+.list {
+    max-width: 1360px;
+    padding-left: 0px;
+}
+
+li {
+    width: 56.1%;
+    height: 109px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #53565A;
+    list-style-type: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin-bottom: 17px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    text-align: left;
+    width: 50%;
+    word-wrap: break-word;
+    overflow: auto;
+    padding-top: 12px;
+}
+
+.delete {
+    display: none  !important;
+}
+
+.important {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+li:hover .important {
+    display: block;
+    width: 183px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 200px;
+    border: none;
+    cursor: pointer;
+    background-color: #27AE60;
+}
+
+li:hover .close {
+    display: block;
+    background-image: url("./Delete.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.importantOn {
+    background-image: url("./star_border.png");
+    background-repeat: no-repeat;
+    background-position-y: 14px;
+    font-weight: 900;
+}
+
+li:hover .importantButton {
+    background-color: #BDBDBD;
+}

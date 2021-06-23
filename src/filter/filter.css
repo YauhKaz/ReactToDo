@@ -1,0 +1,25 @@
+.submenu {
+    display: flex;
+    flex-direction: row;
+    width: 56.3%;
+    height: 50px;
+    border-top: 1px solid #E2E2E2;
+}
+
+.submenu__button {
+    width: 175px;
+    color: #53565A;
+    border: none;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.submenu__button:hover {
+    background-color: #d4d3d3;
+}
+
+.activeSubmenuButton {
+    border-top: 4px solid #2F80ED;
+    font-weight: 900;
+}
