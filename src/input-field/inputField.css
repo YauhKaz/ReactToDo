@@ -3,9 +3,12 @@
     flex-direction: column;
     width: 56.3%;
     height: 176px;
+
+    
 }
 
 label {
+    display: flex;
     font-family: Roboto;
     font-size: 1.2rem;
     line-height: 17px;
