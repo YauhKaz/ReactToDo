@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  font-family: Gilroy;    
+  font-style: normal;
+  background-color: #F6F6F6;
+  margin: 0 auto;
+  background-image: url("./taking_notes.png");
+  background-position: right;
+  background-position-y: 218px;
+  background-repeat: no-repeat;
+  background-size: 63%;
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+@media (max-width: 1000px) {
+  html {
+      font-size: 8px;
+  }
+  .header__wrapper {
+      width: 80%;
+  }
+  .submenu {
+      width: 80%;
+  }
+  .new-task {
+      width: 80%;
+  }
+  li {
+      width: 80%;
+  }
+  
+}
+
